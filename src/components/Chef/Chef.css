@@ -1,0 +1,97 @@
+.chefPage {
+  margin: 3vh 14vh;
+  justify-content: center;
+  text-align: center;
+}
+
+.chef {
+  font-family: Dancing Script;
+  font-size: 34px;
+  font-weight: 700;
+  color: #e7272d;
+  margin: 10px;
+}
+
+.heading {
+  margin: 10px;
+  font-family: Poppins;
+  font-size: 34px;
+  font-weight: 700;
+  color: #232323;
+}
+
+#ul {
+  position: relative;
+  width: 84px;
+  top: -10px;
+}
+
+.para {
+  margin: 10px;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  color: rgba(102, 102, 102, 1);
+}
+
+.chefs {
+  margin: 20px;
+  text-align: center;
+}
+
+.chefs section {
+  margin-top: 5vh;
+  display: inline-block;
+  margin: 15px;
+  height: 565px;
+  width: 350px;
+}
+
+#chef1,
+#chef2,
+#chef3 {
+  width: 350px;
+}
+
+.namebox {
+  width: 320px;
+  height: 80px;
+  z-index: +1;
+  position: relative;
+  top: -25px;
+  background-color: white;
+  display: inline-block;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.namee {
+  margin: 8px 2px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.post {
+  color: rgba(231, 39, 45, 1);
+  display: inline-block;
+  padding: 0px 20px;
+  font-weight: 500;
+  font-size: 14px;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  font-family: poppins;
+  margin-bottom: 2rem;
+}
+
+.pone {
+  display: inline-block;
+  max-width: 360px;
+  color: rgba(102, 102, 102, 1);
+}
+
+.iconn img {
+  margin: 8px 15px;
+  width: 25px;
+  height: 25px;
+}

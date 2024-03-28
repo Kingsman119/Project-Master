@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@300&display=swap");
+
+#offer {
+  display: flex;
+  text-align: left;
+  background-color: #f5f5f5;
+}
+
+@media only screen and (max-width: 700px) {
+  #offer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #header{
+    height: 50vh;
+    width: 100%;
+  }
+}
+
+#img1 {
+  height: 65vh;
+  width: 45vw;
+  float: left;
+}
+
+.header {
+  position: relative;
+  height: 65vh;
+  width: 50%;
+}
+
+.round {
+  height: 12vh;
+  width: 6vw;
+  border-radius: 50px;
+  background-color: #ffffff;
+  box-shadow: -1px 4px 6px #0000001a;
+  position: absolute;
+  left: 93%;
+  top: 24%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.textt1 {
+  font-size: 1rem;
+  color: #e7272d;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+.textt2 {
+  font-size: 0.9rem;
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.sec4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  margin-left: 55px;
+  background-color: #f5f5f5;
+}
+
+.texthead1 {
+  font-size: 2rem;
+  color: #e7272d;
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  margin-top: 100px;
+}
+
+.texthead2 {
+  font-size: 2rem;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.texthead3 {
+  font-size: 0.8rem;
+  color: black;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+.texthead4 {
+  font-size: 0.8rem;
+  color: black;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  text-align: left;
+}
+
+#btnnn2 {
+  height: 5svh;
+  width: 12.24vw;
+  color: #000;
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 11px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 1rem;
+}
+
+#btnnn2:hover {
+  background-color: black;
+  color: #ffffff;
+  font-size: 0.85rem;
+}
+
+#hr2 {
+  width: 750px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: default;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#blog {
+  margin-top: 2rem;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.mainssec {
+  margin-top: 1rem;
+  height: 67vh;
+  width: 70vw;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.ssec1 {
+  display: flex;
+  flex-direction: column;
+  width: 35vw;
+  height: 36svh;
+}
+
+.imgsec {
+  position: relative;
+  color: rgb(0, 0, 0);
+}
+
+#img7 {
+  width: 35vw;
+  height: 38svh;
+}
+
+.textt11 {
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+}
+
+#icon1 {
+  color: white;
+  height: 12px;
+  width: 12px;
+  position: absolute;
+  bottom: 15px;
+  left: 300px;
+}
+
+.textt22 {
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  position: absolute;
+  bottom: 10px;
+  left: 320px;
+}
+
+#icon2 {
+  color: white;
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  bottom: 13px;
+  left: 380px;
+}
+
+.textt33 {
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  position: absolute;
+  bottom: 10px;
+  left: 400px;
+}
+
+.sometext1 {
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  text-align: left;
+  margin-top: 1rem;
+}
+
+.sometext2 {
+  color: #666666;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 0.8rem;
+  text-align: left;
+  margin-top: 0.5rem;
+}
+
+#btn10 {
+  width: 12vw;
+  height: 5vh;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 0.8rem;
+  color: #e7272d;
+  background-color: transparent;
+  border: 1px solid #e7272d;
+  border-radius: 33px;
+  float: left;
+  margin-top: 10px;
+}
+
+#btn10:hover {
+  background-color: #e7272d;
+  color: #fff;
+  font-size: 0.85rem;
+}
+
+.ssec2 {
+  display: flex;
+  flex-direction: column;
+  width: 36vw;
+  height: 65svh;
+}
+
+#icon3 {
+  float: left;
+  margin-left: 1.1vw;
+  margin-top: 1svh;
+  color: #666666;
+}
+
+.sometext3 {
+  float: left;
+  margin-left: 0.5vw;
+  margin-top: 0.8svh;
+  color: #666666;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+#icon4 {
+  color: #666666;
+  float: left;
+  margin-left: 2vw;
+  margin-top: 1svh;
+}
+
+.sometext4 {
+  float: left;
+  margin-left: 0.5vw;
+  margin-top: 0.8svh;
+  color: #666666;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+.sometext5 {
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  text-transform: capitalize;
+  text-align: left;
+  margin-top: 3rem;
+  margin-left: 15vw;
+}
+
+.sometext6 {
+  color: #666666;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 0.8rem;
+  text-align: left;
+  margin-top: 1.4rem;
+  margin-left: 15vw;
+}
+
+#img8,
+#img9 {
+  height: 30svh;
+  width: 14vw;
+  float: left;
+}
+
+#hr2{
+  margin-top: 20px;
+  width: 35vw;
+}

@@ -1,0 +1,342 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.review {
+  height: 110svh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f5f5f5;
+}
+
+.title {
+  margin-top: 2rem;
+  font-family: Dancing Script;
+  font-size: 2.125rem;
+  font-weight: 700;
+  color: #e7272d;
+}
+
+.test {
+  font-family: Poppins;
+  font-size: 2.125rem;
+  font-weight: 700;
+  color: #232323;
+}
+
+.lines {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.lines .line-1 {
+  background-color: #e7272d;
+  height: 3px;
+  width: 2.386rem;
+  margin-right: 0.2rem;
+}
+
+.lines .line-2 {
+  background-color: #e7272d;
+  height: 3px;
+  width: 2.386rem;
+  margin-left: 0.2rem;
+}
+
+.top {
+  font-family: Open Sans;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #666666;
+}
+
+.testimonial {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.pizza {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 34rem;
+  height: 25rem;
+  margin: 2rem 0.5rem 0.5rem 0rem;
+}
+
+.burger {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 34rem;
+  height: 25rem;
+  margin: 2rem 0rem 0.5rem 0.5rem;
+}
+
+.test-head {
+  font-family: Poppins;
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.test-txt {
+  font-family: Open Sans;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #666666;
+}
+
+.img-bg img {
+  width: 7.25rem;
+  border-radius: 50%;
+  padding: 0.5rem;
+}
+
+.img-bg {
+  border-radius: 50%;
+  box-shadow: 0px 1px 10px #878787;
+  margin-top: 2rem;
+}
+
+.symbol-bg {
+  background-color: #fff;
+  box-shadow: 0px 1px 10px #878787;
+  padding: 0.4rem 0.6rem;
+  border-radius: 50%;
+  position: absolute;
+  margin: 1rem 0 2rem 4rem;
+}
+
+.name {
+  font-family: Poppins;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 1.5rem 0 0.5rem 0;
+}
+
+.stars {
+  margin: 0.5rem 0 0 0;
+}
+
+.scroll-lines {
+  /* margin: 1rem auto; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.scroll-line-1 {
+  background-color: #e7272d;
+  height: 0.438rem;
+  width: 3.063rem;
+  border-radius: 0.5rem;
+  margin: 1rem 0.5rem 1rem 0rem;
+}
+.scroll-line-2 {
+  background-color: #232323;
+  height: 0.438rem;
+  width: 1.688rem;
+  border-radius: 0.5rem;
+  margin: 1rem 0rem 1rem 0.5rem;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100vw;
+  height: 100%;
+  background-color: #232323;
+  color: #ffffff;
+}
+
+.footer-upper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.footer-div-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 20vw;
+  margin: 0 1vw 0 3vw;
+}
+.footer-logo {
+  margin: 2rem 0 2rem 0;
+}
+.address,
+.phone,
+.email {
+  font-family: Open Sans;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.footer-div-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 12vw;
+  margin: 4.6rem 1vw 0 1vw;
+}
+.footer-title-2 {
+  font-family: Open Sans;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.underline {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  /* align-items: flex-start; */
+  margin-bottom: 2.3rem;
+}
+.underline .large-line {
+  background-color: #d9d9d9;
+  width: 4rem;
+  height: 0.125rem;
+  margin-right: 0.2rem;
+}
+.underline .small-line {
+  background-color: #d9d9d9;
+  width: 0.4rem;
+  height: 0.125rem;
+  margin-left: 0.2rem;
+}
+
+.footer-2-list ul {
+  list-style-type: none;
+  margin-left: -2rem;
+  font-family: Open Sans;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+.footer-2-list ul li {
+  margin: 1rem 0;
+}
+
+.footer-div-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 24vw;
+  margin: 4rem 1vw 0 1vw;
+}
+.footer-title-3 {
+  font-family: Open Sans;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.footer-3-imgs {
+  flex-wrap: wrap;
+  margin-left: -0.5rem;
+}
+.footer-3-imgs img {
+  width: 5.2rem;
+  margin: 0.5rem;
+}
+
+.footer-div-4 {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: flex-start;
+  width: 24vw;
+  margin: 4.6rem 5vw 0 2vw;
+}
+.footer-title-4 {
+  font-family: Open Sans;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.footer-time-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Open Sans;
+  font-size: 0.875rem;
+  font-weight: 400;
+  border-bottom: 0.5px solid #666666;
+  margin: 0.7rem 0;
+}
+.footer-time-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Open Sans;
+  font-size: 0.875rem;
+  font-weight: 400;
+  border-bottom: 0.5px solid #666666;
+  margin: 0.7rem 0;
+}
+.footer-time-3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Open Sans;
+  font-size: 0.875rem;
+  font-weight: 400;
+  border-bottom: 0.5px solid #666666;
+  margin: 0.7rem 0;
+}
+.footer-time-4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Open Sans;
+  font-size: 0.875rem;
+  font-weight: 400;
+  margin: 0.7rem 0;
+}
+
+/* LOWER PART OF THE FOOTER */
+.footer-lower {
+  margin-bottom: 1.5rem;
+}
+.footer-lower hr {
+  width: 100vw;
+  background-color: #666666;
+}
+
+.footer-lower-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.footer-lower-links p {
+  font-family: Poppins;
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin: 0.2rem 2rem;
+  /* padding: 1.3rem 0; */
+}
